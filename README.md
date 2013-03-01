@@ -1,4 +1,4 @@
-# Modelo - Starter template for the Laravel Framework
+# Modelo - Simple blade template for the Laravel Framework
 
 Modelo is a set of views that serve as a site's **very basic template**.  
 It gathers best practices from around the web (see [h5pb](http://html5boilerplate.com) or Zurb's [Foundation](http://foundation.zurb.com)) in order to provide a **robust starting template for most sites**.
