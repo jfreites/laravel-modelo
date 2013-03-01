@@ -4,7 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
   <title>@yield('meta-title') | Koalabs - Design Laboratory</title>
-  <meta name="meta-description" content="@yield('description')">
+  <meta name="description" content="@yield('meta-description')">
   <meta name="author" content="{{ Modelo::get('author') }}">
 
   {{-- In case you want to add you own meta tags --}}
