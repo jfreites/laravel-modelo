@@ -3,12 +3,12 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>@yield('title') | Koalabs - Design Laboratory</title>
-  <meta name="description" content="@yield('description')">
+  <title>@yield('meta-title') | Koalabs - Design Laboratory</title>
+  <meta name="meta-description" content="@yield('description')">
   <meta name="author" content="{{ Modelo::get('author') }}">
 
   {{-- In case you want to add you own meta tags --}}
-  @yield('meta_tags')
+  @yield('meta-tags')
 
   {{-- Mobile viewport optimized: j.mp/bplateviewport --}}
   <!-- <meta name="viewport" content="width=device-width,initial-scale=1"> -->
