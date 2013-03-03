@@ -38,10 +38,6 @@ Do this by going into your *application/bundles.php* file and adding this line i
 
 `'modelo' => array('auto' => true)`
 
-You should also publish the bundles public files via artisan:
-
-`php artisan bundle:publish`
-
 
 ## Usage
 You can of course use *Modelo* as the template for any of your views.  
